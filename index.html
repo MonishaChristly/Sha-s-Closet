@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sha's Closet</title>
+
+<!--GoogleFonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<!--My CSS-->
+<link rel="stylesheet" href="style.css">
+
+
+<!--Fontawesome icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+ integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+ integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Sha's Closet</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+        <!--Side Navbar-->
+        <div class="side-navbar">
+            <p style="text-align:right" onclick="closeNavbar()">
+                <i class="fa-solid fa-xmark"></i>
+            </p>
+
+            <div class="side-navbar-links">
+                <p class="side-navbar-link"><a href="index.html">Home</a></p>
+                <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+                <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+            </div>
+        
+        </div>
+
+        <!--Header-->
+        <div class="header">
+            <div>
+                <h1>Level up your style</h1>
+                <p>with our stunning collections</p>
+                <button class="header-button">Shop Now</button>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://th.bing.com/th/id/OIP.QT226kMLjnrb-RcjOUbWKQHaE8?w=233&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="d-block" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/OIP.K8k8YV3VsJQrToAtx-XqugAAAA?r=0&pid=ImgDet&w=185&h=169&c=7&dpr=1.3" class="d-block" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/OIP.NV7JxsqTiUeR9oWmDP1leAHaDp?r=0&pid=ImgDet&w=185&h=90&c=7&dpr=1.3" class="d-block" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+        </div>
+
+        <!--Service-->
+     <div class="service">
+        <div class="service-container-1">
+                <div>
+                    <h2>We Provide Best</h2>
+                    <h2>Customer Experience</h2>
+                </div>
+                <div>
+                    <p>|| We ensure that our customer have the best shopping experience</p>
+                </div>
+       </div>
+
+        <div class="service-container-2">
+                <div>
+                    <i class="fa-regular fa-face-smile"></i>
+                    <h4>Satisfaction Guarantee</h4>
+                    <p>Guaranteed to Impress—or It’s on Us
+                        Your wardrobe should feel perfect.
+                        Not quite right? Return it within 30 days.
+                        Fast, easy, and free—just like fashion should be.</div>
+                
+                <div>
+                          <i class="fa-regular fa-face-smile"></i>
+                          <h4>New Arrival Everyday</h4>
+                          <p>Just Dropped
+                          Fresh styles, bold statements, and your next favorite fit.
+                          Get them before they’re gone.</p>
+                </div>
+                
+                <div>
+                   <i class="fa-regular fa-face-smile"></i>
+                   <h4>Fast & Free Shipping</h4>
+                   <p>Free Shipping, Fast Delivery
+                    No hidden fees. No long waits.
+                    Just your order, on your doorstep—fast and free.</p> </div>
+
+        </div>
+     </div>
+
+
+<div style="padding:20px;">
+ <h2>New Arrival</h2>
+
+   <div class="new-arrival">
+    <div class="new-arrival-container">
+         <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAPQApgMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAADAAECBAYFBwj/2gAIAQEAAAAA0JzGMQspzeSd0mZLKHOYpCS5PaI7ukkzLKnOUpcz48Hue1ddOkkzLKnOUs/nm/GvqvaHTpMmWVMcpZ+OesA8l53tmkSSTMsqYxjEyHR51zxnb+xpJJksmcxTEzM+5Q8Jve2aVJmTLKGMYwOFz+xQ8eraf346ZmZ8kcxjVK3B5K86s7Dd6O6yZlkjmMYueWOrY/ReoXOZs2TMsicxjF4Qc7zMX65pQY/1VJorInMYxeBRWXxXtnV5uE9Y6TMzZE5jGbnc6zjuf6kNvLvU9MzRWPOcxueEFrzXf9UvczWlnForHnMc2YHoakzQ0yr25RizY45zRwWx1WT6fJ0d9oKxGMVjbBzT8v3Ovz3J0HTOhqzGMWxtg5jZXu6CcxitwhC40ItjDnMYtqdh4V7wxivxjBYs5zFLOxdYYbdMY+soxbFnOYs+6CtYIiVJXINGKxRzmL2jhKRO3PuzhCLLFHOXoXmtTg8mqlNCEYrFWDG7NboxtJTQ6lyMIxWKOY1+3eq3k7KHL6kItBYo5jWehcDcJAi54b0YNFYoxzWb9qFwsmGLn3mjFmxZjme11VO5OUYZzsKLRWKOYxQ50/c2KedLN99k0FjDHKYhMZf3HSQMBrTqKisYc5Slnludr9rUfAbJMmiv/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwQF/9oACgICEAMQAAAAuVlWBQQuVlzvG941kAuJV8H0s79fh68QDWZc6+d9aa9nzuvLWASxc6+b9bWO/m8vq+h87pzEsWX53061jz9vZ4/V5i5RePfy+rGufX1+Ttx68ksRfL6+vP5f0/T5vp/LmsaLEXj39Hn4d/R57Dl0LEWOmKCOfQSxZZZbApEsXNlAqhLkzsgooTWYmliKKQ1iVeHol7cIqwN4ljn18f0Pd81bED//xABBEAACAQMDAQUDCAcHBQEAAAABAgMABBEFITESEBNRYXEGIkEUICMyUoGRoRVCcoKSscEwRGOiwtHhJDM1ZLJz/9oACAEBAAE/AFG9KKWgKFAUBQoUBWPmY7MVjtUb0opRSigKAoCgKdkhjMssiRxjl3YIv4mj7R+z4k7v9LW3V5EkVFJFPGJYZEkjPDowYfiKxWPmY+Zil5peaWloUKFe0ntKmhRIkSLLdy7ojcKPtNWpalf6nKJr65kmdvtHZfJRwKitiwBFaXf3+j3KvBIyk8qd1ceBFaPq1trFt3sXuyLgSxnlCf6Gsf2K80tLS0tCiVRWduFUsfQb1quoXGs6nPc4LGRsIqjhF4FRaDqmoGIQQACOPcuenckmruw1CziCTwSIwO22x9CKt7vqxFLvg7E8itFvzpOrQTk/QyfRS/sN/tz24rHZisdq80tLS0tCmQSI8Z2Doy/xDFeyVqbfULyKePEkbmMg8grVrGoPFajZx3COksXVGea1nRZbe4HQQ0bEiN/E/ZJ8ain6ouht+n8xXsrfnUdGty7dUsP0Lnx6eD94/sVG9LS0KWloCtbt3stUt762ggzcr0SmR2XqkTjgGrG9eZ3jcRLIq59x+tf5CrmWTvn+Ww3l18YlRS0XoFBAHqafT4prExXFsqCRctGMDpz6fEVMnd3MyBywVmUN4gHmvYrUzZX/AHEhxBc4X0asVisfOHNLzS0tChTOka9TsFUY3PnWsX2n3iRQSRl4xNy3DDg7VbWsFtNAlrGkcfRJsNhvirUq6SdQGx2NX8jGOQD4g/hUjlnY54Lfmat7lEgIJwwb3TXs3raarZgSH/qIsLJ5+Df2A5oc0tLS0tXylrbAGT3sZA9DU+mMbNGjnkhnTJLx4J97kYbIIqR5IYoOhFkUhSA35j7qgu7+ZQOlVT4noP8AU1rt8tpYTFj77oVUU5QQsf1sionBJV89Jr2d1SbQ9RimcEwn3X84zUEsU0aSROHicZVlOQc/PHNClpaFCtTD/IZWRWJQq+F5wpqzuVuIwcghhvXtLDNFpstxbHE1q4nX0GzVa+191LZx91pbbjeRn+iGDjOBua1dFGmyyvJ3s0+A0reHgo/VWmgcBhVpZm7bukh6pfXAxzk1pvs8GMQlPW2c7jZRVvafInEkHuN8SPj61Z3sd13kfE0QUuvk/BHkcfOHNClpaWhQq4g/R1yJEGLeV9gP1GPIq+iN7Y3MPVgy28kX8SkVYQQXdlGIk6ImjToXyArXe9t9IhUnKvP0D9zkV3zDLE+P3CvZ2Fp5h0AjAk75vh05XpT12qzgVBnFSGoLj5Pr+nj4XME0Dfd76/OHNLzS0tLQoVrjjrsUIyFMkpHphaspeoFTvitMgMFmYce9BLNF6dLHFe1josGnREbASMfWhA9xLHBDsNvePnvk1YWMNmqW0Q92NQP+T5nmkQKgqRsZrU73udZ0xwcCH6T/ADjP5CgQQCOD8w0OaFLS0tChWpfSakqfYt0/Mk1aDubqaPwcj7uRSR9zqd7ER7s8aTr+0vuN/Sva6yuHhid06eg7eODVrNLA0Ui/XRvdGM5b4bHkE1p4uJlE9yqieQKXC8AgAYp2wKlfrcRj1byWtf8A/KQn/C/1Vo83f6ZZv1ZPcqCfMD5o5oUtLS0KlfpCgDnc+gq+kgtrS6vpIepoLXvGxsxA3xUoAureYZHyi0ilI8Camla2lguwM90x6v2G2b/evanVY7m4mijcMgYKGXgha9mdL+VXhvZBmKEkRjxf4mox0ippOkcE8AAckngDzNC1mtkJnXErnqc8qD4A+A4r2onkh1RVJAUQKfXJNeyXX+hYC/xJI+aOaWlpaFLvUk/W7uu6kiNfMZ3Nau63Gl6nEAS01u0Sj92njP6H0S65PdIGPlIgI/lSKJIsVq+iXS3yRQqSkpwh+CDk5rS7KOztoYIx7qLinYKK062aeZbp8iOPPdj7Tfa9BRJrUPZ3TdV1C3uLyEkxp0ALsOereooo4Y1jjQIijCqOAPmGhzS0tLQpTgg02oWttc3NrKwjhtmwJmPukjkeWKfU4pBElij3M8wIQBCApYE5Oat7CaH2bis5z1TxW6j99N6sn6gPMVeWvfdPTsQ6tn0NKojXJqKJ7+cwqxVFAMjj4KfgPM0FWMdCKAoUBQOB8K/3qcE7KdzE+P2kwy1G4kRHHDKG/HsPYaHNLS0tCrqd7WzurhAC8UDuoPioyKsj1R9Tt1Ft2ZuWJ3JNaEiSTyy8tFEAvl1n/inGD1fDn8KjT5PdyQ/BX29DuKc9A3q5nd5YreAB55SRGp425dvBV+NaZapZxSRKxf3yWduXb4saf60ZPjR5FSbNA3hJ/pNWu0PR9hmT7gduw9hoc0tLS0tOnexSx4B643TB494Yq0MkUWHBDLsR5ivZAl7S+mP61wE/gWpziJvStRQW7JeOelCoDMeFI2BNPqIn647QfKp8bRRnknjJ4ArR9O+RxPcTnrvJwO9fwA4jTwUVbHZvM1L9QnwIP4Uw4qb60A/xP9JqDaWZfHpb+h/l2Gj2DmlpaWloV7Q6TfSqZtMhR5JD9KhIB/aXNezNhPpmkRwXLAzmV3kwcjLmrs4iNAD3B4LSqiZCqFHkMVjpBFW3LCmGVIpT1IvpUu8sH75/AY/rSnpuEPjlfx3/AKdh7RzS0tLS0DQqH/sp5vV3v3S+LjszTb1CcSNR4qPgjwY0d518o2/Mipfdy32SG/DetqPYaHNKd6WloUKBqK66hDEltc9QIBLx9CeuSald3uoE7s4wWyNxkfCirDlT2E0u0vrUksUQHeSInqd/woahZxn6WYQ9bEJ3oKdXTsSM0+o2ELlpLuLdRjB6yf4c13894em1gkRDzPMnSAD9lDuxpR0Kq5JwAMnk4rNE0aHNLS0tChShpHSNASx/IeNCMALtxUkUcm0iqw8GAIoadakgxGSPySRgPwpbQj+8z/xULcfGWU/v/wC1C1gByUyfFmJ/maWKJCSkaqfEACruCKUxyyxq6QhyQyhh0ld+at7OxhYT29vEhZdmVcbHsPYexeaXmlpaWlySABkk4FQRLbRn4seT4mtzgk/dTAFid6HURxQGB2kgVqPW1hdge6O4k9eKjCrGirwFAHoB2ntXml5paWlqyTqk6vDj1NX062lpc3JGRbws+PEgbCoppDEneKFlKKXA8SKiOVFEqoySBXXn6qk19Ifsj866fFiawinPFX3vWlyB8YZP/k1bnNvAc8xJ/Ks0aJ7DQ5peaWloVYELEznnOBWsZmisrMf3m5Uv/wDnCO8b8TgVcwlwrK5RhtkAHP41AFOUdm6xzvjNCKIb9Az48miHX6pyPChIDsdj51isU6CT3Twdj6GtPkD2UB8F6P4Pd7D2HsB3paWloVYuQ0vgMbVs1zbjkrG3+Zv+KlbdRSnEzueMkfhgVg8ig/iMVs3IBroX4ZHoa6F8z99ERx+8fhvzWi5/RlsTy4Z/4mJrNE1miewHelNKaU0DULFHBAyG2xULD5Wg/wALfbwO1SH6RT5GoyCyAjYoTSEoegn9k+IojNAY7b1+iC5c/qwuQPRTWmL0abZL4W8f8qzWaJomiaB3paWlNCoJoIX6pnKjGxIJUeOSOKilSWZ5IySpChTggYHhmnY9J9KIzGACQQNiORUY64wpbLLt1efjSOWBB2Ycjs4pg3INe67AONjsR4g1psvXZQ+KdUR9YyU/pWaJrPaOaU0ppTQqRZHikSOZ4nZcLIvKnxFaQdQaAm/lSScOQXRQoKjipD7hFA7VA7JKy8qRnOfiPhTg7Ov1h+YpW6hkdhOK2LKSvxFaK/Va3B/925/+zWaz2ZrNA70ppTSmgaFXt9qNlbCSxgSZg4LxuM5Xyxg1N7c3IHQ2lwRyD7TvVt7Q6pcIC1wE8o0CAVpN7d3N59NO7qqFsMaz04+yeDWN/DJ/A11EHDYB/I0SBztU92I45ZsfQxIzlzwQvhXs11HR4XbmSSWT8WrNZrNZrNA70ppaBoGgaBrY4JANaoottXl+zMBKPVtj+Yqw1OHTZHnlgnmXoC9MIBb8yK0jU7fVLNZoklVepl6JV6XGPEV09O3KmjwQ24qbCIeo9aVr2rXOsXg0XT8dGcTP4lef3Vq1gjtbeG3j2SJAg+6s1ms1miaB3paWlpaFChXtOoEunSD6xEifcMGsnpHpXsoxPyxTx7jUNwc702erp6jjwzXSGZc5O4r2ShRjqd2RmZrlo8+C/WrNZrPzBzX/xAApEQEAAQMCBgEDBQAAAAAAAAABAgADERIgBBAhMDFBURMiMzJhcYGh/9oACAECAQE/AO8yDy0uTI1GWo7N4S6tE9DkXDUHD/PYk6YyfgqU5ScrS9CNB0qL6fO+RqE+aRtzCXpp63ADBqqSg1rlnVqc1anrgPvffc3ZVDLMlV7wdffimuGeif3uvT0Qfl6VoJWrkvMgKtXcRYL0zmpT1q+vVWuF1wyqLULX00/Y3cSmImPdWLcfpPT9XmmCaovprhrGt1J9p/vKW67BmGKhHTCJUuGhKbJXr6oAMHJ8b8nPNKblrNYKOw9t2njcm0339RDMVKsyzAy5d7zu/jlVn8hv/8QAKREAAgEDAgUEAgMAAAAAAAAAAQIAAxESBCEQIDAxQRMiUYEzoTJhcf/aAAgBAwEBPwDrKrN2BMAsbMIy4no0DeiAIyZrZgLiOLj/ADoIMmUfJAlOmqDFR9mFMGYkiMbNGFjcdjzqcWB+DeKwqUyV8j9wEimSxv7YqhiIFUC2IlVMHI59N7aQ/veOQEK7Slue3jvBNSNweJ40EzqDbYbmFmWrTXsrEypSuwcDcC0VMAB58yrqcHxUAgR6vqD75tJfJjfxNRUb1hv/ABtaZXxYeRNTXwGIPuP64L3PNRqCmTeO2bs3yYmqqKgQAbdjCSTcm54L357GCHgAehke3RHTHTHU02JezAHaahcahstlsOlR/Kk1H4W+uf8A/9k=" alt="">
+         <button >Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="new-arrival-container">
+        <img src="https://www.bing.com/th?id=OPAC.GB6LXV3H23EdYw474C474&o=5&pid=21.1&w=160&h=240&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" alt="">
+        <button >Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+   </div>
+
+   <div class="new-arrival-container">
+      <img src="https://www.bing.com/th?id=OPAC.Ym89xDB5r0JBpg474C474&o=5&pid=21.1&w=148&h=227&rs=1&qlt=100&dpr=1.3&bw=6&bc=FFFFFF" alt="">
+      <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+   </div>
+
+
+   <div class="new-arrival-container">
+      <img src="https://www.bing.com/th?id=OPAC.F7G98xlrHab9Og474C474&o=5&pid=21.1&w=160&h=240&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" alt="">
+      <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+   </div>
+
+   </div>
+</div>
+
+<div style="padding:20px;">
+    <h2>Most Wanted</h2>
+<div class="new-arrival">
+  <div class="new-arrival-container">
+    <img src="https://image.hm.com/assets/hm/fa/d1/fad138be820f13bb578f7fb966ee89a57f3efdbb.jpg?imwidth=820" alt="">
+    <button >Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+  </div>
+
+  <div class="new-arrival-container">
+    <img src="https://th.bing.com/th?id=OPAC.BSP2Q3g%2fuGJWBQ474C474&w=220&h=210&c=17&o=5&dpr=1.3&pid=21.1" alt="">
+    <button >Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+  </div>
+
+  <div class="new-arrival-container">
+    <img src="https://th.bing.com/th/id/OPAC.zVcMMNohOGuE9A474C474?w=220&h=210&c=17&o=5&dpr=1.3&pid=21.1" alt="">
+    <button >Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+  </div>
+
+  <div class="new-arrival-container">
+    <img src="https://th.bing.com/th/id/OPAC.QEmzg7CcQczy2w474C474?w=220&h=210&c=17&o=5&dpr=1.3&pid=21.1" alt="">
+    <button >Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+  </div>
+</div>
+</div>
+
+<!--News-->
+<div class="news">
+    <h2>Join our News Letter</h2>
+    <p>Signup for our email newsletter to get exclusive discounts and updates</p>
+    <div>
+        <input type="text" class="search">
+    </div>
+    <div>
+        <button>Subscribe</button>
+    </div>
+</div>
+
+<!--Footer-->
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h2 class="headingText">Sha's Closet</h2>
+            <p>Effortless style, everyday comfort.
+                We design timeless pieces that fit your life and your wardrobe.
+                From quality basics to standout staples—no compromises.
+                Simple. Refined. Made to last..</p>
+
+            <div class="footer-icon-container">
+                <i class="fa-brands fa-instagram" style="color:#ffffff;"></i>
+                <i class="fa-brands fa-twitter" style="color:#ffffff;"></i>
+                <i class="fa-brands fa-facebook" style="color:#ffffff;"></i>
+                <i class="fa-brands fa-youtube" style="color:#ffffff;"></i>
+            </div>
+
+        </div>
+
+    </div>
+     <p>@2025 Sha's Closet.com</p>
+</div>
+
+
+        <script src="index.js"></script>  
+</body>
+</html>
